@@ -16,7 +16,7 @@ let breadCrumbCurrent = {
 */
 
 function initShared(){
-	document.getElementById("menuLink").load("./html_components/menu.html");
+	$("#menuLink").load("./html_components/menu.html");
 	// console.log("CONTENT _ ", document.getElementById("menuLinkSource").innerHTML);
 	// document.getElementById("menuLink").contentDocument.write();
 }
